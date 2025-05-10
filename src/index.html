@@ -1,300 +1,277 @@
-
 <!DOCTYPE html>
 <html lang="en" class="sr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-    
-    <title>Omkar Borker | Developer</title>
-    <meta name="keywords" content="[username], Omkar Borker, skill" />
-    <meta name="description" content="Omkar Borker| Developer" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/fc151a1c05.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div id="top"></div>
+  <title>Omkar Borker | Developer</title>
+  <meta name="keywords" content="[username], Omkar Borker, skill" />
+  <meta name="description" content="Omkar Borker| Developer" />
 
-    <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron rare-wind-gradient" style="background: linear-gradient(to right, rgba(168,237,234,0.85), rgba(254,214,227,0.85));">
-      <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="blue-text">Omkar Borker</span>
-          <br />
-          I'm A Software Developer.
-        </h1>
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
-        </p>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.scss" />
+  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-    <!-- **** About Section **** -->
-    <section id="about" style=" background: linear-gradient(to right, rgba(55,236,186,0.85), rgba(114,175,211,0.85))">
-      <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded-circle shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
-            </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/fc151a1c05.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron rare-wind-gradient"
+    style="background: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(34, 34, 34, 0.85));">
+    <div class="container">
+
+      <!-- <h1 class="hero-title load-hidden">
+        Hi, my name is</h1>  -->
+      <!-- <span class="blue-text">Omkar Borker</span> -->
+      <h1 id="terminalName" style="font-size: 4.8rem;"></h1>
+      <div class="blinking-cursor">_</div>
+      <br />
+      <!-- <h1 class="hero-title load-hidden"> I'm A Cyber Security Analyst and A Software Developer. </h1> -->
+      <h1 id="heroName2" style="font-size: 4.8rem;"></h1>
+      <div class="blinking-cursor">_</div>
+      <br />
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+    <!-- <div class="cube-container">
+      <div id="cyberCube"></div> -->
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about" style="background: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(34, 34, 34, 0.85));">
+    <div class="container">
+      <h2 class="section-title load-hidden">About me</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <img alt="Profile Image" class="img-fluid rounded-circle shadow-lg" height="auto" width="300px"
+              src="assets/profile.jpg" alt="Profile Image" />
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                "My name is Omkar Borker and I am a software developer from Goa, India. 
-                 I have a strong background in developing cutting-edge software solutions and am experienced in various programming languages including Java, Python, and C++.
-                 I am always looking for new challenges and opportunities to grow my skills and contribute to the tech industry."
-              </p>
-              <p class="about-wrapper__info-text">
-                 In my free time, I enjoy reading, solving puzzles, and playing chess.
-              </p>
-              <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
-                >
-                  View Resume
-                </a>
-              </span>
-            </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              Cybersecurity Analyst with hands-on experience in Web, Mobile, Thick Client, and LLM security assessments.
+              Proficient in tools like Nmap, Ghidra, Snyk, Nuclei, and Trivy. Skilled in scripting (Python, Bash,
+              PowerShell)
+              for automation, DevSecOps integration, and report generation. Discovered critical vulnerabilities in
+              internal
+              applications, led attack planning, and received the Rising Star Award (Oct 2024). Adept at CVSS scoring,
+              CVE-
+              based exploitation, and secure SDLC integration.
+            </p>
+            <p class="about-wrapper__info-text">
+              In my free time, I enjoy reading, solving puzzles, and playing chess.
+            </p>
+            <span class="d-flex mt-3">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/Latest_Resume.pdf">
+                View Resume
+              </a>
+            </span>
           </div>
         </div>
       </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects" style="background: linear-gradient(to right, rgba(233,222,250,0.85), rgba(251,252,219,0.85))">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+  <!-- **** Projects Section **** -->
+  <section id="projects" style="background: linear-gradient(to right, rgba(33, 33, 33, 0), rgba(0, 0, 0, 0))">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Netflix Clone (NEXTFLIX)</h3>
-                <div>
-                  <p class="mb-4">
-                    Developed a Netflix clone using Next.js.
-                    •Implemented server-side rendering (SSR) and static site generation (SSG) techniques for optimized performance and SEO-friendly rendering.
-                    •Utilized API routes to fetch movie and TV show data from TMDB api and created a dynamic user interface with seamless client-side routing.
-                </div>
-                <a
-                rel="noreferrer"
-                target="_blank"
-                class="cta-btn cta-btn--hero"
-                href="https://fin-serv-lhqu43ond-omkarborker.vercel.app/"
-                >
+        <div class="row">
+  <!-- Cybersecurity VAPT Project (New) -->
+  <div class="col-lg-4 col-sm-12">
+    <div class="project-wrapper__text load-hidden">
+      <h3 class="project-wrapper__text-title">VAPT Report Automation</h3>
+      <div>
+        <p class="mb-4">
+          Automated cybersecurity vulnerability assessment reports using AI/LLM with adherence to OWASP LLM guidlines.
+          • Built FastAPI backend for processing VAPT findings and scans.
+          • Integrated mistral:7b with ollama endpoint for intelligent report generation and executive summaries.
+          • Developed Electron.js frontend for cross-platform desktop deployment.
+          • Reduced manual report generation time by 65% with consistent formatting.
+        </p>
+      </div>
+      <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#">
+        See Demo
+      </a>
+      <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#">
+        Source Code
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-8 col-sm-12">
+    <div class="project-wrapper__image load-hidden">
+      <a rel="noreferrer" href="#!" target="_blank">
+        <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" 
+             class="thumbnail rounded js-tilt">
+          <img alt="VAPT Automation Dashboard" class="img-fluid" src="assets/project4.jpg" />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Netflix Clone (NEXTFLIX)</h3>
+              <div>
+                <p class="mb-4">
+                  Developed a Netflix clone using Next.js.
+                  •Implemented server-side rendering (SSR) and static site generation (SSG) techniques for optimized
+                  performance and SEO-friendly rendering.
+                  •Utilized API routes to fetch movie and TV show data from TMDB api and created a dynamic user
+                  interface with seamless client-side routing.
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://fin-serv-lhqu43ond-omkarborker.vercel.app/">
                 See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/OmkarBorker/FinServ"
-                >
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/OmkarBorker/FinServ">
                 Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project4.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">BitNaysh (Face Recognition System)</h3>
-                <div>
-                  <p class="mb-4">
-                    A Web App using a Machine Learning Model to identify the picture
-                    given by the user and establish identity of the person and give
-                    required information about person/suspect.Uses A optimised Database 
-                    design And A optimised query.The system was faster then
-                    preexisting systems by factor of 200%.
-                  </p>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/project4.jpg" />
                 </div>
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/BitNaysh/frontend"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      height="auto"
-                      src="assets/project1.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+        </div>
+        <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Frontend For TopTrip.In</h3>
-                <div>
-                  <p class="mb-4">
-                    Frontend Design Ideation and Development of Website for
-                    TopTrip.in,A goan Based Startup Idea.Includes Map Rendering Service
-                    Using Google Maps, Input Forms along with Validation, Authentication Page
-                    and Services.
-                    PS:Site Maybe regularly under mainteinance this may lead to moblie version being loaded 
-                  </p>
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">BitNaysh (Face Recognition System)</h3>
+              <div>
+                <p class="mb-4">
+                  A Web App using a Machine Learning Model to identify the picture
+                  given by the user and establish identity of the person and give
+                  required information about person/suspect.Uses A optimised Database
+                  design And A optimised query.The system was faster then
+                  preexisting systems by factor of 200%.
+                </p>
+              </div>
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/BitNaysh/frontend">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" height="auto" src="assets/project1.jpg" />
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://toptripin.netlify.app/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project2.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
         </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
+        <!-- /END Project -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact" style=" background: linear-gradient(to right, rgba(55,236,186,0.85), rgba(114,175,211,0.85))">
-      <div class="container">
-        <h2 class="section-title">Contact Me</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">Reach out to me Using Email</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:omkarborker15@gmail.com"
-            >Contact Now</a
-          >
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Frontend For TopTrip.In</h3>
+              <div>
+                <p class="mb-4">
+                  Frontend Design Ideation and Development of Website for
+                  TopTrip.in,A goan Based Startup Idea.Includes Map Rendering Service
+                  Using Google Maps, Input Forms along with Validation, Authentication Page
+                  and Services.
+                  PS:Site Maybe regularly under mainteinance this may lead to moblie version being loaded
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://toptripin.netlify.app/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/project2.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
+        <!-- /END Project -->
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+  <!-- **** Contact Section **** -->
+  <section id="contact" style=" background: linear-gradient(to right, rgb(0, 167, 42), rgba(0, 108, 34, 0.558))">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-wrapper load-hidden">
+        <p class="contact-wrapper__text">Reach out to me Using Email</p>
+        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+          href="mailto:omkarborker15@gmail.com">Contact Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a rel="noreferrer" href="https://discord.com/users/741235274784440320" target="_blank">
+          <i class="fa-brands fa-discord"></i>
         </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="https://discord.com/users/741235274784440320" target="_blank">
-            <i class="fa-brands fa-discord"></i>
-          </a>
-          <a rel="noreferrer" href="https://instagram.com/0mkar_borker_547?igshid=NTA5ZTk1NTc=" target="_blank">
-            <i class="fa fa-instagram fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="https://www.linkedin.com/in/omkar-borker-431834233/" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="https://github.com/OmkarBorker" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
+        <a rel="noreferrer" href="https://instagram.com/0mkar_borker_547?igshid=NTA5ZTk1NTc=" target="_blank">
+          <i class="fa fa-instagram fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://www.linkedin.com/in/omkar-borker-431834233/" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://github.com/OmkarBorker" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
 
-        <hr />
-        <p class="footer_text">
-          © 2022 - portfolio developed by
-          <a rel="noreferrer" href="" target="_blank"
-            >Omkar Borker</a
-          >
-        </p>
-    <script defer type="module" src="index.js"></script>
-  </body>
+      <hr />
+      <p class="footer_text">
+        © 2022 - portfolio developed by
+        <a rel="noreferrer" href="" target="_blank">Omkar Borker</a>
+      </p>
+      <script defer type="module" src="index.js"></script>
+      <script src="scripts/script.js"></script>
+</body>
+
 </html>

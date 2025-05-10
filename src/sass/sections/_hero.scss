@@ -14,6 +14,10 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  position: relative; /* Needed for absolute child positioning */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevents cube from leaking out */
+  border-bottom: 1px solid var(--matrix-green); /* Optional divider */
 
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
@@ -52,6 +56,8 @@
 
   .hero-cta {
     display: flex;
+    align-items: center;
+    justify-content: center;
 
     @include respond(tab-port) {
       justify-content: center;
